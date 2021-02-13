@@ -4,4 +4,6 @@ const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
 
+app.get();
+
 app.listen(3000, () => console.log("Server iniciado!"));
