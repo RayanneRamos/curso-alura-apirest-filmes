@@ -10,6 +10,8 @@ app.get("/api/filmes", (req, res) => {
     { nome: "Destacamento Blood" },
     { nome: "Pantera Negra" }
   ];
+
+  res.send(JSON.stringify(filmes));
 });
 
 app.listen(3000, () => console.log("Server iniciado!"));
