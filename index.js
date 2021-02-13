@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
 
-app.get();
+app.get("/api/filmes", (req, res) => {
+  
+});
 
 app.listen(3000, () => console.log("Server iniciado!"));
